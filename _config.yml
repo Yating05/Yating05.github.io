@@ -24,7 +24,7 @@ navigation:                     # accepts {file, title, url, icon, sidebaricon}
 external:                       # accepts {file, title, url, icon, sidebaricon}
   - {title: Mail, icon: envelope, url: "mailto:yatinlin@umich.edu"}
   - {title: Github, icon: github, url: "https://github.com/Yating05"}
-  - {title: Google Scholar, icon: google, url: "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"}
+  - {title: Google Scholar, icon: google, url: ""}
 
 comments:
 #  disqus_shortname: ""         # see https://disqus.com
