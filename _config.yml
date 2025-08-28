@@ -19,12 +19,12 @@ show_minimal: false             # remove all clutter
 
 navigation:                     # accepts {file, title, url, icon, sidebaricon}
   - {file: "archive.html", sidebaricon: home}
-  - {file: "README.md", sidebaricon: address-card}
+  - {file: "README_about.md", sidebaricon: address-card}
 
 external:                       # accepts {file, title, url, icon, sidebaricon}
   - {title: Mail, icon: envelope, url: "mailto:yatinlin@umich.edu"}
   - {title: Github, icon: github, url: "https://github.com/Yating05"}
-  - {title: Google Scholar, icon: google, url: ""}
+  - {title: Google Scholar, icon: google, url: "https://scholar.google.com/citations?hl=en&user=Ubfl6NUAAAAJ&sortby=pubdate&view_op=list_works&gmla=AH8HC4wUMQl75XcMaITbZdHmfaAjxT6zTD6CQ_Vrek6sBI0sMVv771Wo2WEsIBiPMfR-sgz_I9o5xguyF4OrIrO94ECqKEKHJRh_0A"}
 
 comments:
 #  disqus_shortname: ""         # see https://disqus.com
