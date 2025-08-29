@@ -11,6 +11,15 @@ title: "Home"
       <footer class="button"><a href="{{ post.url | relative_url }}">read more</a></footer>
     </article>
   {% endfor %}
+  {% for page in site.pages %}
+    {% if page.title == "About Me" or page.title == "Tags" or page.title == "Projects" %}
+      <article>
+        {% include meta.html post=page %}
+        {{ page.excerpt }}
+        <footer class="button"><a href="{{ page.url | relative_url }}">read more</a></footer>
+      </article>
+    {% endif %}
+  {% endfor %}
 {% else %}
   {% capture source %}{% include_relative archive.html title="Posts" %}{% endcapture %}
   {{ source | split: "---" | last }}
