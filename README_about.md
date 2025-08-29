@@ -1,4 +1,8 @@
-## About Me
+---
+title: "About Me"
+permalink: "/about/"
+layout: page
+---
 I’m Yating Lin. I do like Optics but I like Robots more! 
 Maybe because I like learning algorithms and want to play tennis with Robot!
 
