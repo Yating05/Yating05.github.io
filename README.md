@@ -1,5 +1,1 @@
----
-title: "About"
-permalink: "/about/"
-layout: page
----
+### Yating Lin's Homepage
