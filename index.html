@@ -23,8 +23,7 @@
                   Yating Lin
                 </p>
                 <p>
-                  I began my research in robot learning at the University of Michigan. Previously, I conducted research on optical microcavities at Zhejiang University. I got a bachelor's degree in Optoelectronic Information Science and Engineering from Chongqing University. 
-                  Physics and machine learning are both attractive to me.
+                  I began my research in robot learning at the University of Michigan. Prior to that, I conducted research on optical microcavities at Zhejiang University. I got a bachelor's degree in Optoelectronic Information Science and Engineering from Chongqing University. 
                 </p>
                 <p style="text-align:center">
                   <a href="mailto:yatinlin@umich.edu">Email</a> &nbsp;/&nbsp;
@@ -42,52 +41,103 @@
               <td style="padding:16px;width:100%;vertical-align:middle">
                 <h2>Research</h2>
                 <p>
-                  I'm interested in out-of-distribution generalization and detection for robot learning. And also interested in how to leverage the representation learning and causality in generative models to achieve more robust and better generalized models for robotics. (Maybe someday for optics too!)
+                  I'm interested in out-of-distribution generalization and detection for robot learning. And I'm also curious about how to leverage the representation learning and causality in generative models to achieve more robust and better generalized models for robotics.
                 </p>
               </td>
             </tr>
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
-<tr onmouseout="radmesh_stop()" onmouseover="radmesh_start()" bgcolor="#ffffd0">
-  <td style="padding:16px;width:20%;vertical-align:middle">
-    <div class="one">
-      <div class="two" id='radmesh_image'>
-        <img src='images/radmesh_after.jpg' width=100%>
-      </div>
-      <img src='images/radmesh_before.jpg' width=100%>
-    </div>
-    <script type="text/javascript">
-      function radmesh_start() {
-        document.getElementById('radmesh_image').style.opacity = "1";
-      }
-
-      function radmesh_stop() {
-        document.getElementById('radmesh_image').style.opacity = "0";
-      }
-      radmesh_stop()
-    </script>
+<tr>
+  <td style="padding:16px;width:30%;vertical-align:middle">
+    <img src='images/Abnormal detection_1.gif' style="max-width:200px;max-height:200px;width:100%;object-fit:contain;">
   </td>
-  <td style="padding:8px;width:80%;vertical-align:middle">
-    <a href="https://half-potato.gitlab.io/rm/">
-      <span class="papertitle">Radiance Meshes for Volumetric Reconstruction</span>
-    </a>
+  <td style="padding:8px;width:70%;vertical-align:middle">
+    <span class="papertitle">AnoF-Diff: One-Step Diffusion-Based Anomaly Detection for Forceful Tool Use</span>
     <br>
-    <a href="https://half-potato.gitlab.io/">Alexander Mai</a>,
-    <a href="https://github.com/Shmaug">Trevor Hedstrom</a>,
-    <a href="https://grgkopanas.github.io/">George Kopanas</a>, <br>
-	<a href="https://mediatech.aalto.fi/~janne/index.php">Janne Kontkanen</a>, 
-    <a href="https://jacobsschool.ucsd.edu/faculty/profile?id=253">Falko Kuester</a>,
-    <strong>Jonathan T. Barron</strong>
+    <strong>Yating Lin</strong>,
+    Zixuan Huang,
+    Fan Yang,
+    Dmitry Berenson
     <br>
-    <em>arXiv</em>, 2025
-    <br>
-    <a href="https://half-potato.gitlab.io/rm/">project page</a>
-    /
-    <a href="https://arxiv.org/abs/2512.04076">arXiv</a>
+    <a href="https://arxiv.org/abs/2509.15153">paper</a>
     <p></p>
     <p>
-	Parameterizing a scene with a Delaunay tetrahedralization and a neural field yields a scene representation that is accurate, fast to render, easy to edit, and backwards-compatible.
+      We propose a parallel one-step diffusion approach for real-time anomaly detection in forceful tool use.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td style="padding:16px;width:30%;vertical-align:middle">
+    <img src='images/implicit_contact_diffuser.gif' style="max-width:200px;max-height:200px;width:100%;object-fit:contain;">
+  </td>
+  <td style="padding:8px;width:70%;vertical-align:middle">
+    <span class="papertitle">Implicit Contact Diffuser: Sequential Contact Reasoning with Latent Point Cloud Diffusion</span>
+    <br>
+    Zixuan Huang,
+    Yinong He*,
+    <strong>Yating Lin*</strong>,
+    Dmitry Berenson
+    <br>
+    <a href="https://arxiv.org/abs/2410.16571">paper</a>
+    <p></p>
+    <p>
+	We enable the robot to reason about the changing contacts between objects and environment learning a diffusion model over neural contact representations.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td style="padding:16px;width:30%;vertical-align:middle">
+    <img src='images/subgoal_diffuser2.gif' style="max-width:200px;max-height:200px;width:100%;object-fit:contain;">
+  </td>
+  <td style="padding:8px;width:70%;vertical-align:middle">
+    <span class="papertitle">Subgoal Diffuser: Coarse-to-fine Subgoal Generation to Guide Model Predictive Control for Robot Manipulation</span>
+    <br>
+    Zixuan Huang,
+    <strong>Yating Lin</strong>,
+    Fan Yang,
+    Dmitry Berenson
+    <br>
+    <a href="https://arxiv.org/abs/2403.13085">paper</a>
+    <p></p>
+    <p>
+	We use diffusion model to generate subgoals at appropriate temporal resolution dynamically to guide MPC.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td style="padding:16px;width:30%;vertical-align:middle">
+    <img src='images/unicycle_car.gif' style="width:200px;height:120px;object-fit:fill;">
+  </td>
+  <td style="padding:8px;width:70%;vertical-align:middle">
+    <span class="papertitle">Improving Out-of-Distribution Generalization of Learned Dynamics by Learning Pseudometrics and Constraint Manifolds</span>
+    <br>
+    <strong>Yating Lin</strong>,
+    Glen Chou,
+    Dmitry Berenson
+    <br>
+    <a href="https://arxiv.org/abs/2403.12245">paper</a>
+    <p></p>
+    <p>
+      We leverage sparsity and nonholonomic constraints to improve out-of-distribution generalization in dynamics learning.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td style="padding:16px;width:30%;vertical-align:middle">
+    <img src='images/FP.gif' style="max-width:200px;max-height:200px;width:100%;object-fit:contain;">
+  </td>
+  <td style="padding:8px;width:70%;vertical-align:middle">
+    <span class="papertitle">Fiber-integrated open Fabry-Perot microcavity for high-brightness single-photon sources</span>
+    <br>
+    <em>Coming soon</em>
+    <p></p>
+    <p>
+      We realize fiber-based Fabry–Perot microcavities with coupling efficiencies up to 96.3%, providing a platform for Purcell enhancement toward single-photon sources.
     </p>
   </td>
 </tr>
@@ -100,6 +150,7 @@
               <td>
                 <h2>Miscellanea</h2>
                 <p>I like to play tennis! Therefore, I'm also interested in sports and agile robots!</p>
+                <p>Physics and machine learning are both attractive to me, maybe someday learning for optics too!</p>
               </td>
             </tr>
           </tbody></table>
